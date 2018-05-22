@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/question/question",
+    "pages/home/home",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "巨人目录",
+    "navigationBarTextStyle": "black"
+  }
+}

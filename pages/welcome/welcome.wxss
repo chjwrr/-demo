@@ -1,0 +1,37 @@
+/* pages/welcome/welcome.wxss */
+.userView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px
+}
+.nickName {
+  margin-top: 10px
+}
+.title {
+  color: black
+}
+.honoraryTitle {
+  color: red;
+}
+.desView {
+  margin: 30px;
+}
+.desTitle {
+  color: green;
+  font-size: 90%;
+  font-weight: bold;
+}
+.desNameView {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end
+}
+.desName {
+  color: red
+}

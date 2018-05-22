@@ -1,0 +1,20 @@
+/* pages/question/question.wxss */
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: red
+}
+.headView {
+  flex-direction: row;
+  display: flex;
+  margin-left: 10px
+}
+.labelView {
+  flex-direction: column;
+  display: flex;
+  height: 100px;
+  background-color: green;
+  justify-content: space-around;
+  margin-left: 10px;
+}

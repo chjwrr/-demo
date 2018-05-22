@@ -1,0 +1,9 @@
+<!--pages/question/question.wxml-->
+ <view class='headView'>
+  <image class='image' src='{{userInfo.avatarUrl}}'/>
+  <view class='labelView'>
+    <text>名字</text>
+    <text>称号</text>
+  </view>
+</view>
+<questionItem id="questionItem" answerInfo='{{questionList[currentCount - 1]}}' answerCount='{{currentCount}}' bindanswerClick='answerClick' />

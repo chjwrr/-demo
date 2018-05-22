@@ -1,0 +1,19 @@
+<!--component/questionView/questionView.wxml-->
+
+<wxs src="./answerStatus.wxs" module="module" />
+<view animation='{{animation}}'>
+  <view class='questionView'>
+    <text class='questionTitle'>{{answerInfo.answerTitle}}</text>
+    <progress class='progress' percent="{{progressValue}}" stroke-width="2" activeColor="green" backgroundColor="red" />
+
+  </view>
+  <view class='questionView'>
+    <button class="{{module.selectStatue(chooseAnswer,answerInfo.answer,answerInfo.answerA)}}" data-answer='{{answerInfo.answerA}}' bindtap='answerClick'>{{answerInfo.answerA}}</button>
+    <button class="{{module.selectStatue(chooseAnswer,answerInfo.answer,answerInfo.answerB)}}" data-answer='{{answerInfo.answerB}}' bindtap='answerClick'>{{answerInfo.answerB}}</button>
+    <button class="{{module.selectStatue(chooseAnswer,answerInfo.answer,answerInfo.answerC)}}" data-answer='{{answerInfo.answerC}}' bindtap='answerClick'>{{answerInfo.answerC}}</button>
+    <button class="{{module.selectStatue(chooseAnswer,answerInfo.answer,answerInfo.answerD)}}" data-answer='{{answerInfo.answerD}}' bindtap='answerClick'>{{answerInfo.answerD}}</button>
+  </view>
+  <view class='countView'>
+    <text>{{answerCount}}/10</text>
+  </view>
+</view>

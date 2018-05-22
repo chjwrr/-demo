@@ -1,0 +1,12 @@
+var selectStatue = function (chooseAnswer, answer, answerNormal) {
+  if (chooseAnswer == answerNormal && answerNormal == answer) {
+    return 's_answerTitle'; // 正确
+  }
+  if (chooseAnswer == answerNormal && chooseAnswer != answer) {
+    return 'uns_answerTitle'; // 错误
+  }
+  return 'nor_answerTitle'; // 正常
+}
+module.exports = {
+  selectStatue: selectStatue
+}

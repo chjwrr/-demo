@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "questionItem": "../../component/questionView/questionView"
+  }
+}

@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<button class='view' bindtap='begin'>
+  <text class='text'>开始</text>
+</button>

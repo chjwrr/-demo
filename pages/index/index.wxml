@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>
+<button type='primary' bindtap='request'>开启巨人目录</button>
+</view>

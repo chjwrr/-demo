@@ -1,0 +1,19 @@
+<!--pages/welcome/welcome.wxml-->
+<view>
+  <view class='userView'>
+    <image class='image' src='{{userInfo.avatarUrl}}'/>
+    <text class='nickName'>{{userInfo.nickName}}</text>
+    <view style='margin-top: 30px'>
+      <text class='title'>欢迎回来：</text>
+      <text class='honoraryTitle'>'{{honoraryTitle}}'</text>
+    </view>
+  </view>
+  <view class='desView'>
+    <text class='desTitle'>
+      我们就像是巨人肩膀上的侏儒，所以我们可以看得比他们更多更远，并不是因为我们视觉敏锐，或是长得不一样；只因为我们被他们巨大的身躯抬了起来，高高在上。
+    </text>
+    <view class='desNameView'>
+        <text class='desName'>以巨人之名</text>
+    </view>
+  </view>
+</view>
